@@ -2,6 +2,9 @@
 
 AIGleam 3D Tetris is a **free and open-source** futuristic take on the classic Tetris game, enhanced with immersive 3D graphics, neon aesthetics, and a dynamic soundtrack. This game is designed to challenge your spatial awareness with fully rotatable 3D tetrominoes!
 
+![screenshot](https://github.com/user-attachments/assets/c54dc8b8-c8a2-4c2a-b299-b6366157c441)
+
+
 ## Features
 
 - **True 3D Tetris Gameplay** – Rotate and drop pieces in a fully three-dimensional space.

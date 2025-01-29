@@ -97,6 +97,8 @@ class MusicManager:
         self.click_sound = pygame.mixer.Sound(str(sounds_dir / "click.wav"))
         self.plop_sound = pygame.mixer.Sound(str(sounds_dir / "plop.wav"))
         
+        # Set up the end of music event
+        pygame.mixer.music.set_endevent(pygame.USEREVENT)
         self._load_and_play_music()
 
     def play_game_sound(self, action_type):
@@ -136,7 +138,7 @@ class MusicManager:
                 
                 pygame.mixer.music.load(str(next_song))
                 pygame.mixer.music.set_volume(0 if self.is_muted else self.volume)
-                pygame.mixer.music.play()
+                pygame.mixer.music.play(0)  # Play once (0)
                 
         except Exception as e:
             print(f"Could not load music: {e}")
@@ -1173,6 +1175,10 @@ def game_loop(value):
     for event in pygame.event.get():
         if event.type == pygame.USEREVENT:  # Music ended
             game_state.music_manager.next_song()
+            
+    # Auto-advance to next song when current song ends
+    if not pygame.mixer.music.get_busy():
+        game_state.music_manager.next_song()
 
     # Only process game updates if in PLAYING state (not paused or other states)
     if current_mode == STATE_PLAYING and not game_state.game_over:

@@ -806,7 +806,7 @@ def display():
         draw_scene_3d()
         
         # Draw menu text on top
-        draw_text_2d(100, 400, "CYBERPUNK 3D TETRIS", 18, (0.2, 0.8, 1.0))
+        draw_text_2d(100, 400, "AIGleam 3D TETRIS", 18, (0.2, 0.8, 1.0))
         draw_text_2d(100, 350, "Press [S] to START", 14, TEXT_COLOR)
         draw_text_2d(100, 320, "Press [ESC] to QUIT", 14, TEXT_COLOR)
 

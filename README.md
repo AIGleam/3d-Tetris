@@ -44,6 +44,10 @@ AIGleam 3D Tetris is a **free and open-source** futuristic take on the classic T
 
 ### Setup Instructions
 
+##Download the Zip file with the Songs! Extract it to the directory your are running the Tetris.py from so you will have your song files! You can also replace it with your own song files if you'd like. just call the folder "Songs"
+
+https://drive.google.com/file/d/1NZXmXL9KbZDC9LmXRLF2l9riOPmjoAfs/view?usp=sharing
+
 #### Windows
 1. **Install Python** from [python.org](https://www.python.org/downloads/) (Check *Add Python to PATH*).
 2. **Install Git (Optional)** from [git-scm.com](https://git-scm.com/downloads).

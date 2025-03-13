@@ -135,13 +135,5 @@ This project is open-source, and contributions are welcome! Feel free to fork th
 
 This project is licensed under the **MIT License**, meaning you are free to use, modify, and distribute it as you see fit.
 
-## Follow Me for Updates
-
-Stay connected and watch the latest developments on:
-
-- 🎮 Twitch: [AIGleam](https://www.twitch.tv/aigleam)
-- 🐦 Twitter: [@AIGleam](https://x.com/AIGleam)  -- All Music (including Music Videos) can be found here - https://www.youtube.com/watch?v=x0yhztsurnI&list=PLgTyGXjfqCtRhAIjTW1ko_gk6PDl5Jvgq I hope you enjoy! Feel free to like/scubscribe lol
-- 📺 YouTube: [AIgleam](https://www.youtube.com/@AIgleam)
-- 🌐 Website: [Keven.Ink](https://keven.ink) Want something fun/stupid built? Let me know! 
 
 Happy gaming! 🎮🚀
